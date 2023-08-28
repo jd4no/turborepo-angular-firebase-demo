@@ -86,6 +86,12 @@ npm run dev
 
 TBD
 
+## Firebase Notes
+
+The name of the Firebase project listed in `.firebaserc` is not a real project and would need to be changed to reflect
+a project you have created. This only applies to having cloned this repo. If you ran `firebase init` yourself then the
+`.firebaserc` should already be correctly created for you.
+
 ## NPM Workspaces
 
 Packages are shared in the workspace and with the apps. Packages can be imported as a dependancy or dev dependancy. 
