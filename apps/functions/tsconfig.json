@@ -1,0 +1,13 @@
+{
+  "extends": "tsconfig/tsconfig.base.json",
+  "compilerOptions": {
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "dist"
+  },
+  "compileOnSave": true,
+  "include": ["src"],
+  "paths": {
+    "@myorg/types": ["./dist/types"]
+  }
+}

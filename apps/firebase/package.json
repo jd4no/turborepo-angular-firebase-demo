@@ -1,0 +1,12 @@
+{
+  "name": "firebase",
+  "license": "MIT",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "firebase emulators:start"
+  },
+  "devDependencies": {
+    "functions": "*"
+  }
+}
